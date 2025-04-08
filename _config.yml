@@ -3,7 +3,7 @@
 # -----------------------------------------------------------------------------
 
 title: blank # the website title (if blank, full name will be used instead)
-first_name: Ziyu
+first_name: Ziyu (Perry)
 middle_name:
 last_name: Li
 contact_note: >
@@ -193,6 +193,15 @@ exclude:
   - README.md
   - readme_preview/
   - vendor
+  - _pages/teaching.md
+  - _pages/books.md
+  - _pages/blog.md
+  - _pages/publications.md
+  - _pages/repositories.md
+  - _pages/dropdown.md
+  - _pages/profiles.md
+  - _pages/cv.md
+  
 keep_files:
   - CNAME
   - .nojekyll

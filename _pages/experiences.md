@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Projects
-permalink: /projects/
+title: Experiences
+permalink: /experiences/
 description: A growing collection of your cool projects.
 nav: true
 nav_order: 3

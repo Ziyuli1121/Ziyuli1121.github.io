@@ -16,7 +16,6 @@
         - Data Optimization Concentration
         - Minor in Computer Science
         - GPA - 4.0/4.0
-        - Expected graduation - June 2026
     - title: Mechanical Engineering
       institution: Tongji University
       year: 2021 - 2024
@@ -28,23 +27,37 @@
   contents:
     - title: Undergraduate Researcher
       institution: Zhao Group @ Carl R. Woese Institute for Genomic Biology
-      year: 2024 - Present
+      year: Sep 2024 - Present
+      # image: assets/img/projects/eeg-project.jpg
+      links:
+        - name: Research Group
+          url: https://zhaogroup.chbe.illinois.edu/
       description:
         - Constructing biological knowledge graphs, integrating datasets to support machine learning tasks
         - Exploring protein dynamics representations to enhance graph representations of protein structures
         - Developing multi-modal large concept model to explore the entire protein 'universe'
     - title: Education Lead
       institution: Illinois Data Science Club
-      year: 2024 - Present
+      year: May 2024 - Present
+      # image: assets/img/projects/eeg-project.jpg
+      links:
+        - name: Club Website
+          url: https://one.illinois.edu/illinoisdatascienceclub/home/
+        - name: LinkTree
+          url: https://linktr.ee/illinoisdatascienceclub?utm_source=linktree_profile_share&ltsid=c5e4ec89-c19e-4700-b923-b4281395ea35
       description:
         - Developing educational resources and staying updated on data science trends
         - Mentoring club members and teaching data science
         - Organizing workshops and driving improvements in educational experience
-    - title: Research Presenter
-      institution: 2025 Undergraduate Research Symposium (URS)
+    - title: 2025 Undergraduate Research Symposium (URS)
+      institution: University of Illinois Urbana-Champaign
       year: 2025
+      # image: assets/img/projects/eeg-project.jpg
+      links:
+        - name: Symposium Info
+          url: https://undergradresearch.illinois.edu/symposium.html
       description:
-        - Presented research on "Graph Neural Network for Enhanced Protein Solubility Prediction"
+        - Presented my research, "Graph Neural Network for Enhanced Protein Solubility Prediction."
 
 - title: Projects
   type: time_table
@@ -52,22 +65,37 @@
     - title: A Multi-Stage Learning Framework for Credit Card Spending Prediction, Risk Segmentation, and Limit Recommendation
       institution: Champaign, IL
       year: Mar 2025
-      url: https://www.youtube.com/watch?v=oTbIIaauKmk
+      image: assets/img/projects/SYNCHRONY.jpg
+      links:
+        - name: Presentation (YouTube)
+          url: https://www.youtube.com/watch?v=oTbIIaauKmk
+        - name: Presentation (BiliBili)
+          url: https://www.bilibili.com/video/BV1XFZ9YREdq/?spm_id_from=333.1387.homepage.video_card.click&vd_source=b7f988838254ec6779108f21bb6479b4
+        - name: GitHub
+          url: https://github.com/Ziyuli1121/2025_Datathon
       description:
         - Built time series models with rich feature engineering for spending prediction
         - Applied clustering techniques with neural network autoencoder-based dimensionality reduction
-        - Designed hybrid rule-based & Random Forest recommendation system for credit limit adjustment
+        - Designed a hybrid rule-based & Random Forest recommendation system for credit limit adjustment
+        - Delivered actionable insights for low-risk growth and risk control
         
     - title: Interpretable Spatiotemporal Neural Networks for EEG-Based Bilingual Proficiency Prediction
       institution: Champaign, IL
       year: Nov 2024
+      image: assets/img/projects/SANDIA.jpg
+      links:
+        - name: Presentation (YouTube)
+          url: https://www.youtube.com/watch?v=qqu96mFb_W0
+        - name: Presentation (BiliBili)
+          url: https://www.bilibili.com/video/BV15ZZEYFEbW/?spm_id_from=333.1387.homepage.video_card.click&vd_source=b7f988838254ec6779108f21bb6479b4
       description:
-        - Analyzed EEG signals, identifying peak brain activity in bilinguals for language processing
-        - Developed CNN-LSTM model using EEG data to predict bilingual proficiency
+        - Analyzed EEG(electroencephalography) signals, identifying peak activity in bilinguals for efficient language processing
+        - Developed a CNN-LSTM model using EEG data to predict bilingual proficiency, capturing spatial and temporal brain activity patterns
         - Used Integrated Gradients to identify key brain regions in language processing
     - title: Car Sales Recommendation System
       institution: Champaign, IL
       year: Feb 2024 – May 2024
+      # image: assets/img/projects/car-recommendation.jpg
       description:
         - Processed demographic and car data for prediction model
         - Applied multiple ML algorithms to predict car features based on demographics
@@ -75,6 +103,7 @@
     - title: Non-destructive and Efficient Prediction of Intramuscular Fat in Live Pigs Based on Ultrasound Images and Machine Learning
       institution: Nanjing, China
       year: Aug 2023 – Dec 2023
+      image: assets/img/projects/PIG.jpg
       description:
         - Developed predictive models for pig IMF based on ultrasound images
         - Applied non-invasive methods to aid genetic improvement in pork
@@ -82,6 +111,7 @@
     - title: Impact of Maternal Physical and Mental Health on Infant Development - A Machine Learning and Optimization Model Approach
       institution: Shanghai, China
       year: Aug 2023
+      image: assets/img/projects/HUASHU.jpg
       description:
         - Used ML algorithms to analyze maternal health impacts on infant development
         - Developed optimization model for treatment costs
@@ -89,6 +119,7 @@
     - title: Innovative Development of an IRB Robotic Arm Replica and a Bluetooth Control Model
       institution: Shanghai, China
       year: Feb 2023 - May 2023
+      # image: assets/img/projects/robotic-arm.jpg
       description:
         - Designed robotic arm components using SolidWorks and 3D printing
         - Assembled the robotic arm with standard parts
@@ -96,6 +127,7 @@
     - title: Oil Temperature and Pressure Control System
       institution: Shanghai, China
       year: Nov 2021 - Jan 2022
+      # image: assets/img/projects/oil-control.jpg
       description:
         - Developed automated control system using LabVIEW
         - Implemented real-time monitoring and adjustments
@@ -105,8 +137,12 @@
   type: time_table
   contents:
     - title: 1st place (1/180) in 2025 Illinois Datathon
-      institution: Champaign, IL
-      year: 2025
+      institution: Issued by UIUC & Synchrony
+      year: Apr 2025
+      # image: assets/img/projects/eeg-project.jpg
+      # links:
+      #   - name: Event Page
+      #     url: https://datathon.illinois.edu/
       description:
         - Built time series models with rich feature engineering for spending prediction
         - Applied clustering (DBSCAN, BIRCH, Hierarchical) with neural network autoencoder-based dimensionality reduction
@@ -114,47 +150,63 @@
         - Delivered actionable insights for low-risk growth and risk control
     
     - title: LAS Dean's list (Fall 2024)
-      institution: Champaign, IL
-      year: 2025
+      institution: Issued by University of Illinois Urbana-Champaign
+      year: Jan 2025
+      # image: assets/img/projects/eeg-project.jpg
+      # links:
+      #   - name: Dean's List
+      #     url: https://las.illinois.edu/academics/distinctions/deans
       description:
         - Top student academic achievement recognition
     
-    - title: LAS James Scholar Honor Program
-      institution: Champaign, IL
+    - title: James Scholar
+      institution: Issued by University of Illinois Urbana-Champaign
       year: 2024 - Present
+      # image: assets/img/projects/eeg-project.jpg
+      # links:
+      #   - name: Program Info
+      #     url: https://las.illinois.edu/academics/distinctions/james-scholar
       description:
         - Academic excellence and a commitment to engaged inquisitive learning
         - Global citizenship, sustainability, and interdisciplinary growth
     
     - title: 2nd place (2/51) in 2024 Sandia National Lab Data Challenge
-      institution: Champaign, IL
-      year: 2024
+      institution: Issued by UIUC & Sandia National Laboratories
+      year: Aug 2024
+      # image: assets/img/projects/eeg-project.jpg
+      # links:
+      #   - name: Challenge Info
+      #     url: https://datachallenges.sandia.gov/
       description:
         - Developed CNN-LSTM model to predict bilingual proficiency from EEG signals
         - Identified key brain regions involved in language processing
         - Achieved over 94% prediction accuracy
     
     - title: LAS Dean's list (Spring 2024)
-      institution: Champaign, IL
-      year: 2024
+      institution: Issued by University of Illinois Urbana-Champaign
+      year: Jun 2024
+      # image: assets/img/projects/eeg-project.jpg
       description:
         - Top student academic achievement recognition
     
     - title: National First Prize in Mathematical Modeling
       institution: Shanghai, China
-      year: 2023
+      year: Aug 2023
+      # image: assets/img/projects/eeg-project.jpg
       description:
         - Led a team to develop machine learning models assessing maternal health impact on infant development
     
     - title: Tongji University Undergraduate Merit-based Scholarship
-      institution: Shanghai, China
+      institution: Issued by Tongji University
       year: 2022
+      # image: assets/img/projects/eeg-project.jpg
       description:
         - Top academic performance recognition
     
     - title: 37th Chinese Physics Olympiad (CPhO)
-      institution: Nanjing, China
-      year: 2020
+      institution: Issued by Chinese Physical Society
+      year: Nov 2020
+      # image: assets/img/projects/eeg-project.jpg
       description:
         - First Prize in Jiangsu province
         - Second Prize nationally

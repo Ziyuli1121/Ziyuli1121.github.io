@@ -2,7 +2,7 @@
 layout: page
 title: Education
 permalink: /education/
-description: My educational background and qualifications.
+description:
 nav: true
 nav_order: 2
 ---

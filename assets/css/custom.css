@@ -1,0 +1,99 @@
+/* Custom CSS to fix CV layout issues */
+
+/* Fix year label width to prevent overlap with title */
+.table-cv .badge {
+  display: block !important;
+  min-width: 120px !important;
+  width: auto !important;
+  font-size: 0.7rem !important;
+  padding: 0.25rem 0.5rem !important;
+  word-break: keep-all !important;
+  white-space: nowrap !important;
+  margin-right: 20px !important;
+  text-align: center !important;
+}
+
+/* Add more space between year column and content */
+.cv .col-xs-2, 
+.cv .cl-sm-2, 
+.cv .col-md-2 {
+  width: 150px !important;
+  min-width: 150px !important;
+  padding-right: 25px !important;
+  flex: 0 0 150px !important;
+}
+
+/* Make CV cards adaptable to content */
+.cv .card {
+  width: 100%;
+  height: auto;
+  overflow: visible;
+}
+
+/* Ensure title doesn't wrap awkwardly and has enough space */
+.cv .title {
+  word-break: normal;
+  overflow-wrap: break-word;
+  hyphens: auto;
+  line-height: 1.4;
+  margin-left: 20px !important;
+  padding-left: 0 !important;
+  position: relative;
+  display: block;
+  width: 100%;
+  clear: both !important;
+}
+
+/* Adjust layout for better spacing */
+.cv .row {
+  display: flex;
+  flex-wrap: nowrap;
+  margin-right: -15px;
+  margin-left: -15px;
+  align-items: flex-start;
+}
+
+/* Ensure content area takes remaining width */
+.cv .col-xs-10,
+.cv .cl-sm-10,
+.cv .col-md-10 {
+  flex: 1;
+  width: auto !important;
+  max-width: calc(100% - 160px) !important;
+  padding-left: 20px !important;
+}
+
+/* Custom layout for Education and Experience sections */
+.cv #Education .badge,
+.cv #Experience .badge {
+  display: block;
+  text-align: right;
+  margin-right: 0 !important;
+}
+
+/* Adjust the positioning of content in all sections */
+.list-group-item {
+  display: flex;
+  flex-direction: row;
+  padding: 20px 10px !important;
+}
+
+/* Target specifically the Education titles */
+.cv #Education .title,
+.cv #Experience .title {
+  font-weight: bold;
+  font-size: 1.1rem;
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
+
+/* Improve spacing for institution info */
+.cv .institution {
+  margin-top: 5px !important;
+}
+
+/* Make date badges stand out more */
+.cv .danger-color-dark {
+  background-color: #0076df !important;
+  color: white !important;
+} 

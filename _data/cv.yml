@@ -2,96 +2,159 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+      value: Ziyu Li
+    - name: Email
+      value: ziyul6@illinois.edu
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Bachelor of Science in Mathematics
+      institution: University of Illinois Urbana-Champaign
+      year: 2024 - 2026 (expected)
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - Data Optimization Concentration
+        - Minor in Computer Science
+        - GPA - 4.0/4.0
+        - Expected graduation - June 2026
+    - title: Mechanical Engineering
+      institution: Tongji University
+      year: 2021 - 2024
       description:
-        - Description 1.
-        - Description 2.
+        - Mechatronics Concentration
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Undergraduate Researcher
+      institution: Zhao Group @ Carl R. Woese Institute for Genomic Biology
+      year: 2024 - Present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Constructing biological knowledge graphs, integrating datasets to support machine learning tasks
+        - Exploring protein dynamics representations to enhance graph representations of protein structures
+        - Developing multi-modal large concept model to explore the entire protein 'universe'
+    - title: Education Lead
+      institution: Illinois Data Science Club
+      year: 2024 - Present
       description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+        - Developing educational resources and staying updated on data science trends
+        - Mentoring club members and teaching data science
+        - Organizing workshops and driving improvements in educational experience
+    - title: Research Presenter
+      institution: 2025 Undergraduate Research Symposium (URS)
+      year: 2025
       description:
+        - Presented research on "Graph Neural Network for Enhanced Protein Solubility Prediction"
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: Projects
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: A Multi-Stage Learning Framework for Credit Card Spending Prediction, Risk Segmentation, and Limit Recommendation
+      institution: Champaign, IL
+      year: Mar 2025
+      url: https://www.youtube.com/watch?v=oTbIIaauKmk
+      description:
+        - Built time series models with rich feature engineering for spending prediction
+        - Applied clustering techniques with neural network autoencoder-based dimensionality reduction
+        - Designed hybrid rule-based & Random Forest recommendation system for credit limit adjustment
+        
+    - title: Interpretable Spatiotemporal Neural Networks for EEG-Based Bilingual Proficiency Prediction
+      institution: Champaign, IL
+      year: Nov 2024
+      description:
+        - Analyzed EEG signals, identifying peak brain activity in bilinguals for language processing
+        - Developed CNN-LSTM model using EEG data to predict bilingual proficiency
+        - Used Integrated Gradients to identify key brain regions in language processing
+    - title: Car Sales Recommendation System
+      institution: Champaign, IL
+      year: Feb 2024 – May 2024
+      description:
+        - Processed demographic and car data for prediction model
+        - Applied multiple ML algorithms to predict car features based on demographics
+        - Built user interface for car dealerships
+    - title: Non-destructive and Efficient Prediction of Intramuscular Fat in Live Pigs Based on Ultrasound Images and Machine Learning
+      institution: Nanjing, China
+      year: Aug 2023 – Dec 2023
+      description:
+        - Developed predictive models for pig IMF based on ultrasound images
+        - Applied non-invasive methods to aid genetic improvement in pork
+        - Contributed to research paper drafting
+    - title: Impact of Maternal Physical and Mental Health on Infant Development - A Machine Learning and Optimization Model Approach
+      institution: Shanghai, China
+      year: Aug 2023
+      description:
+        - Used ML algorithms to analyze maternal health impacts on infant development
+        - Developed optimization model for treatment costs
+        - Applied evaluation methods for intervention prioritization
+    - title: Innovative Development of an IRB Robotic Arm Replica and a Bluetooth Control Model
+      institution: Shanghai, China
+      year: Feb 2023 - May 2023
+      description:
+        - Designed robotic arm components using SolidWorks and 3D printing
+        - Assembled the robotic arm with standard parts
+        - Developed Bluetooth control system
+    - title: Oil Temperature and Pressure Control System
+      institution: Shanghai, China
+      year: Nov 2021 - Jan 2022
+      description:
+        - Developed automated control system using LabVIEW
+        - Implemented real-time monitoring and adjustments
+        - Enhanced system reliability through automation
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
-
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - title: 1st place (1/180) in 2025 Illinois Datathon
+      institution: Champaign, IL
+      year: 2025
+      description:
+        - Built time series models with rich feature engineering for spending prediction
+        - Applied clustering (DBSCAN, BIRCH, Hierarchical) with neural network autoencoder-based dimensionality reduction
+        - Designed hybrid rule-based & Random Forest recommendation system for credit limit adjustment
+        - Delivered actionable insights for low-risk growth and risk control
+    
+    - title: LAS Dean's list (Fall 2024)
+      institution: Champaign, IL
+      year: 2025
+      description:
+        - Top student academic achievement recognition
+    
+    - title: LAS James Scholar Honor Program
+      institution: Champaign, IL
+      year: 2024 - Present
+      description:
+        - Academic excellence and a commitment to engaged inquisitive learning
+        - Global citizenship, sustainability, and interdisciplinary growth
+    
+    - title: 2nd place (2/51) in 2024 Sandia National Lab Data Challenge
+      institution: Champaign, IL
+      year: 2024
+      description:
+        - Developed CNN-LSTM model to predict bilingual proficiency from EEG signals
+        - Identified key brain regions involved in language processing
+        - Achieved over 94% prediction accuracy
+    
+    - title: LAS Dean's list (Spring 2024)
+      institution: Champaign, IL
+      year: 2024
+      description:
+        - Top student academic achievement recognition
+    
+    - title: National First Prize in Mathematical Modeling
+      institution: Shanghai, China
+      year: 2023
+      description:
+        - Led a team to develop machine learning models assessing maternal health impact on infant development
+    
+    - title: Tongji University Undergraduate Merit-based Scholarship
+      institution: Shanghai, China
+      year: 2022
+      description:
+        - Top academic performance recognition
+    
+    - title: 37th Chinese Physics Olympiad (CPhO)
+      institution: Nanjing, China
+      year: 2020
+      description:
+        - First Prize in Jiangsu province
+        - Second Prize nationally

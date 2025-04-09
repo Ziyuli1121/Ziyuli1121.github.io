@@ -3,12 +3,12 @@
     <li class="list-group-item">
       <div class="row">
         {% if content.year %}
-          <div class="col-xs-2 cl-sm-2 col-md-2 text-center" style="width: 75px">
+          <div class="col-xs-2 cl-sm-2 col-md-2 text-center" style="width: 150px">
             <table class="table-cv">
               <tbody>
                 <tr>
                   <td>
-                    <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle" style="min-width: 75px">
+                    <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle" style="min-width: 120px">
                       {{- content.year -}}
                     </span>
                   </td>
@@ -17,7 +17,6 @@
                   <tr>
                     <td>
                       <p class="location">
-                        <i class="fa-solid fa-location-dot iconlocation"></i>
                         {{ content.location }}
                       </p>
                     </td>
@@ -29,25 +28,19 @@
         {% endif %}
         <div class="col-xs-10 cl-sm-10 col-md-10 mt-2 mt-md-0">
           {% if content.title %}
-            <h6 class="title font-weight-bold ml-1 ml-md-4">{{ content.title }}</h6>
+            <h6 class="title font-weight-bold ml-1 ml-md-4" style="margin-left: 25px !important; clear: both;">{{ content.title }}</h6>
           {% endif %}
           {% if content.department or content.institution %}
             <table class="table-cv ml-1 ml-md-4 institution">
               <tbody>
                 {% if content.institution %}
                   <tr>
-                    <td style="vertical-align: top; text-align: center" class="institution">
-                      <i class="fa-solid fa-building-columns iconinstitution"></i>
-                    </td>
-                    <td class="institution">{{ content.institution }}</td>
+                    <td class="institution" colspan="2">{{ content.institution }}</td>
                   </tr>
                 {% endif %}
                 {% if content.department %}
                   <tr>
-                    <td style="vertical-align: top; text-align: center" class="department">
-                      <i class="fa-regular fa-circle-dot icondepartment"></i>
-                    </td>
-                    <td class="department">{{ content.department }}</td>
+                    <td class="department" colspan="2">{{ content.department }}</td>
                   </tr>
                 {% endif %}
               </tbody>

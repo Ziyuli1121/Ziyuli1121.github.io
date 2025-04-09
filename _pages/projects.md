@@ -2,64 +2,58 @@
 layout: page
 title: Projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: My technical and research projects.
 nav: true
-nav_order: 3
-display_categories: [work, fun]
-horizontal: false
+nav_order: 4
 ---
 
-<!-- pages/projects.md -->
-<div class="projects">
-{% if site.enable_project_categories and page.display_categories %}
-  <!-- Display categorized projects -->
-  {% for category in page.display_categories %}
-  <a id="{{ category }}" href=".#{{ category }}">
-    <h2 class="category">{{ category }}</h2>
-  </a>
-  {% assign categorized_projects = site.projects | where: "category", category %}
-  {% assign sorted_projects = categorized_projects | sort: "importance" %}
-  <!-- Generate cards for each project -->
-  {% if page.horizontal %}
-  <div class="container">
-    <div class="row row-cols-1 row-cols-md-2">
-    {% for project in sorted_projects %}
-      {% include projects_horizontal.liquid %}
-    {% endfor %}
-    </div>
-  </div>
-  {% else %}
-  <div class="row row-cols-1 row-cols-md-3">
-    {% for project in sorted_projects %}
-      {% include projects.liquid %}
-    {% endfor %}
-  </div>
-  {% endif %}
+<div class="projects-direct">
+
+  {% for entry in site.data.cv %}
+    {% if entry.title == "Projects" %}
+      {% for project in entry.contents %}
+      
+      {% if project.url %}
+      <a href="{{ project.url }}" target="_blank" class="project-link" style="text-decoration: none; color: inherit;">
+      {% endif %}
+      
+      <div class="card mt-3 p-3">
+        <h5 class="card-title">{{ project.title }}</h5>
+        <h6 class="card-subtitle mb-2 text-muted">{{ project.institution }}</h6>
+        <p class="card-text">{{ project.year }}</p>
+        {% if project.description %}
+        <ul class="card-text font-weight-light">
+          {% for item in project.description %}
+          <li>{{ item }}</li>
+          {% endfor %}
+        </ul>
+        {% endif %}
+      </div>
+      
+      {% if project.url %}
+      </a>
+      {% endif %}
+      
+      {% endfor %}
+    {% endif %}
   {% endfor %}
 
-{% else %}
-
-<!-- Display projects without categories -->
-
-{% assign sorted_projects = site.projects | sort: "importance" %}
-
-  <!-- Generate cards for each project -->
-
-{% if page.horizontal %}
-
-  <div class="container">
-    <div class="row row-cols-1 row-cols-md-2">
-    {% for project in sorted_projects %}
-      {% include projects_horizontal.liquid %}
-    {% endfor %}
-    </div>
-  </div>
-  {% else %}
-  <div class="row row-cols-1 row-cols-md-3">
-    {% for project in sorted_projects %}
-      {% include projects.liquid %}
-    {% endfor %}
-  </div>
-  {% endif %}
-{% endif %}
 </div>
+
+<style>
+  .card {
+    background-color: var(--global-card-bg-color);
+    border-color: var(--global-card-border-color);
+  }
+  .card-title, .card-text, .card li {
+    color: var(--global-text-color);
+  }
+  .card-subtitle {
+    color: var(--global-text-color-light);
+  }
+  .project-link:hover .card {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transform: translateY(-2px);
+    transition: all 0.3s ease;
+  }
+</style>

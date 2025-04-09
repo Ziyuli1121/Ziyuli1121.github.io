@@ -11,31 +11,31 @@ ninja.data = [{
     },
   },{id: "nav-education",
           title: "Education",
-          description: "A growing collection of your cool projects.",
+          description: "My educational background and qualifications.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/education/";
           },
         },{id: "nav-experiences",
           title: "Experiences",
-          description: "A growing collection of your cool projects.",
+          description: "My professional and research experiences.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/experiences/";
           },
         },{id: "nav-projects",
           title: "Projects",
-          description: "A growing collection of your cool projects.",
+          description: "My technical and research projects.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
           },
-        },{id: "nav-honors",
-          title: "Honors",
-          description: "A growing collection of your cool projects.",
+        },{id: "nav-honors-amp-awards",
+          title: "Honors &amp; Awards",
+          description: "My academic achievements and recognitions.",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/honors/";
+            window.location.href = "/honor/";
           },
         },{id: "post-a-post-with-plotly-js",
         
@@ -405,22 +405,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-",
-          title: '',
-          description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
-          description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-",
-          title: '',
-          description: "",
-          section: "News",},{id: "news-my-team-won-the-1st-place-in-the-2025-illinois-statistics-datathon",
+            },},{id: "news-my-team-won-the-1st-place-in-the-2025-illinois-statistics-datathon",
           title: 'My team won the 1st place in the 2025 Illinois Statistics Datathon !...',
           description: "",
           section: "News",handler: () => {
-              window.location.href = "/news/announcement_4/";
+              window.location.href = "/news/announcement_2/";
             },},{id: "projects-project-1",
           title: 'project 1',
           description: "with background image",
@@ -441,31 +430,56 @@ ninja.data = [{
           description: "another without an image",
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_project/";
-            },},{id: "projects-project-5",
-          title: 'project 5',
-          description: "a project with a background image",
+            },},{id: "projects-tongji-university",
+          title: 'Tongji University',
+          description: "Mechanical Engineering - Mechatronics Concentration",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/5_project/";
-            },},{id: "projects-project-6",
-          title: 'project 6',
-          description: "a project with no image",
+              window.location.href = "/projects/education_tongji/";
+            },},{id: "projects-university-of-illinois-urbana-champaign",
+          title: 'University of Illinois Urbana-Champaign',
+          description: "Bachelor of Science in Mathematics",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/6_project/";
-            },},{id: "projects-project-7",
-          title: 'project 7',
-          description: "with background image",
+              window.location.href = "/projects/education_uiuc/";
+            },},{id: "projects-education-lead",
+          title: 'Education Lead',
+          description: "Illinois Data Science Club",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/7_project/";
-            },},{id: "projects-project-8",
-          title: 'project 8',
-          description: "an other project with a background image and giscus comments",
+              window.location.href = "/projects/experience_education_lead/";
+            },},{id: "projects-undergraduate-researcher",
+          title: 'Undergraduate Researcher',
+          description: "Zhao Group @ Carl R. Woese Institute for Genomic Biology",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/8_project/";
-            },},{id: "projects-project-9",
-          title: 'project 9',
-          description: "another project with an image 🎉",
+              window.location.href = "/projects/experience_researcher/";
+            },},{id: "projects-undergraduate-research-symposium-presenter",
+          title: 'Undergraduate Research Symposium Presenter',
+          description: "2025 Undergraduate Research Symposium (URS)",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/9_project/";
+              window.location.href = "/projects/experience_urs/";
+            },},{id: "projects-2024-honors",
+          title: '2024 Honors',
+          description: "Academic and Competition Achievements in 2024",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/honor_2024/";
+            },},{id: "projects-2025-honors",
+          title: '2025 Honors',
+          description: "Academic and Competition Achievements in 2025",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/honor_2025/";
+            },},{id: "projects-earlier-honors-2020-2023",
+          title: 'Earlier Honors (2020-2023)',
+          description: "Academic and Competition Achievements from 2020-2023",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/honor_earlier/";
+            },},{id: "projects-credit-card-spending-prediction-framework",
+          title: 'Credit Card Spending Prediction Framework',
+          description: "A Multi-Stage Learning Framework for Credit Card Spending Prediction, Risk Segmentation, and Limit Recommendation",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/project_credit_card/";
+            },},{id: "projects-eeg-based-bilingual-proficiency-prediction",
+          title: 'EEG-Based Bilingual Proficiency Prediction',
+          description: "Interpretable Spatiotemporal Neural Networks for EEG-Based Bilingual Proficiency Prediction",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/project_eeg/";
             },},{
         id: 'social-email',
         title: 'email',

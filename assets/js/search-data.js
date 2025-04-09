@@ -11,28 +11,28 @@ ninja.data = [{
     },
   },{id: "nav-education",
           title: "Education",
-          description: "My educational background and qualifications.",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/education/";
           },
         },{id: "nav-experiences",
           title: "Experiences",
-          description: "My professional and research experiences.",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/experiences/";
           },
         },{id: "nav-projects",
           title: "Projects",
-          description: "My technical and research projects.",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
           },
         },{id: "nav-honors-amp-awards",
           title: "Honors &amp; Awards",
-          description: "My academic achievements and recognitions.",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/honor/";
@@ -493,13 +493,6 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("https://www.linkedin.com/in/ziyuperryli", "_blank");
-        },
-      },{
-        id: 'social-custom_social',
-        title: 'Custom_social',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://www.alberteinstein.com/", "_blank");
         },
       },{
       id: 'light-theme',

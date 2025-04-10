@@ -31,7 +31,7 @@ latest_posts:
 
 Hi! I’m Ziyu (Perry) Li, a junior at the University of Illinois Urbana-Champaign majoring in Mathematics (Data Optimization Concentration).
 
-I'm passionate about applying novel machine learning and AI techniques to solve challenges in synthetic biology and protein engineering. I currently work as an undergraduate researcher in the [Zhao Group @ UIUC](https://zhaogroup.chbe.illinois.edu), advised by [Dr. Huimin Zhao](https://chbe.illinois.edu/people/profile/zhao5), where I develop deep learning models for challenging protein engineering tasks.
+I'm passionate about applying novel machine learning and AI techniques to solve challenges in synthetic biology and protein engineering. I currently work as an undergraduate researcher in the [Zhao Group @ UIUC](https://zhaogroup.chbe.illinois.edu), advised by [Dr. Huimin Zhao](https://chbe.illinois.edu/people/profile/zhao5), where I develop deep learning models for challenging protein engineering tasks. I am mainly focusing on **graph-based protein representation**, **multi-modal co-contrastive learning in non-Euclidean space**, and **biological knowledge graph**.
 
 I'm a James Scholar and have been on the Dean’s List every semester.
 

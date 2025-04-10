@@ -33,9 +33,11 @@
         - name: Research Group
           url: https://zhaogroup.chbe.illinois.edu/
       description:
+        - Constructing graph neural networks (GNNs) to model protein structures and interactions
+        - Designing a multi-modal co-contrastive learning framework to learn enzyme functions and chemical reactions
+        - Working on generative models to explore the latent space of protein structures and enable de novo function prediction and design.
         - Constructing biological knowledge graphs, integrating datasets to support machine learning tasks
         - Exploring protein dynamics representations to enhance graph representations of protein structures
-        - Developing multi-modal large concept model to explore the entire protein 'universe'
     - title: Education Lead
       institution: Illinois Data Science Club
       year: May 2024 - Present

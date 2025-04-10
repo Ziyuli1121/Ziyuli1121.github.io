@@ -405,12 +405,13 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-my-team-won-the-1st-place-in-the-2025-illinois-statistics-datathon",
-          title: 'My team won the 1st place in the 2025 Illinois Statistics Datathon !...',
+            },},{id: "news-my-team-won-the-2nd-place-2-51-in-the-2024-sandia-national-lab-data-challenge",
+          title: 'My team won the 2nd place (2/51) in the 2024 Sandia National Lab...',
           description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "projects-project-1",
+          section: "News",},{id: "news-my-team-won-the-1st-place-1-180-in-the-2025-illinois-statistics-datathon",
+          title: 'My team won the 1st place (1/180) in the 2025 Illinois Statistics Datathon...',
+          description: "",
+          section: "News",},{id: "projects-project-1",
           title: 'project 1',
           description: "with background image",
           section: "Projects",handler: () => {
@@ -481,18 +482,18 @@ ninja.data = [{
           section: "Projects",handler: () => {
               window.location.href = "/projects/project_eeg/";
             },},{
-        id: 'social-email',
-        title: 'email',
-        section: 'Socials',
-        handler: () => {
-          window.open("mailto:%7A%69%79%75%6C%36@%69%6C%6C%69%6E%6F%69%73.%65%64%75", "_blank");
-        },
-      },{
         id: 'social-linkedin',
         title: 'LinkedIn',
         section: 'Socials',
         handler: () => {
           window.open("https://www.linkedin.com/in/ziyuperryli", "_blank");
+        },
+      },{
+        id: 'social-wechat_qr',
+        title: 'Wechat_qr',
+        section: 'Socials',
+        handler: () => {
+          window.open("", "_blank");
         },
       },{
       id: 'light-theme',

@@ -9,18 +9,23 @@
 - title: Education
   type: time_table
   contents:
-    - title: Bachelor of Science in Mathematics
-      institution: University of Illinois Urbana-Champaign
+    - title: University of Illinois Urbana-Champaign 
+      # image: assets/img/UIUC.jpg
+      institution: Bachelor of Science in Mathematics
       year: 2024 - 2026 (expected)
       description:
         - Data Optimization Concentration
         - Minor in Computer Science
         - GPA - 4.0/4.0
-    - title: Mechanical Engineering
-      institution: Tongji University
+    - title: Tongji University
+      # image: assets/img/TONGJI.jpg
+      institution: Mechanical Engineering
       year: 2021 - 2024
       description:
         - Mechatronics Concentration
+    - title: High School Affiliated to Nanjing Normal University
+      # image: assets/img/NSFZ.jpg
+      year: 2018 - 2021
 
 - title: Experience
   type: time_table

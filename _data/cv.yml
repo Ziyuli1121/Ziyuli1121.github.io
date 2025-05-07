@@ -30,6 +30,16 @@
 - title: Experience
   type: time_table
   contents:
+    - title: Visiting Student
+      institution: AGI Lab @ Westlake University
+      year: May 2025 - Present
+      # image: assets/img/projects/eeg-project.jpg
+      # links:
+      #   - name: Research Group
+      #     url: https://zhaogroup.chbe.illinois.edu/
+      description:
+        - Working on generative model theories and AI agents
+    
     - title: Undergraduate Researcher
       institution: Zhao Group @ Carl R. Woese Institute for Genomic Biology
       year: Sep 2024 - Present

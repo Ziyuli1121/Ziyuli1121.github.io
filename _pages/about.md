@@ -37,6 +37,6 @@ I'm a James Scholar and have been on the Dean’s List every semester.
 
 Beyond academics, I serve as an Education Lead for the [Illinois Data Science Club](https://linktr.ee/illinoisdatascienceclub?utm_source=linktree_profile_share&ltsid=c5e4ec89-c19e-4700-b923-b4281395ea35), where I design curriculum resources, organize workshops, and support members in learning data science through hands-on projects.
 
-I am currently preparing to apply for PhD programs starting in Fall 2026. I am particularly interested in **unified multimodal fusion**, **manifold optimization**, **generative protein design**, **bio-AI synergy**, and **collaborative interdisciplinary innovation**.
+I am currently preparing to apply for PhD programs starting in Fall 2026. I am particularly interested in **unified multimodal fusion**, **manifold optimization**, **generative models**, **bio-AI synergy**, and **collaborative interdisciplinary innovation**.
 
 In my free time, I have been playing the piano for over 15 years, and you might also find me on the soccer field.

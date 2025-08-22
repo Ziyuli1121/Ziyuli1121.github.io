@@ -6,4 +6,4 @@ inline: true
 related_posts: false
 ---
 
-I am excited to share that I will be joining the AGI Lab @ Westlake University as a visiting student in Summer 2025, advised by [Dr. Chi Zhang](https://icoz69.github.io/).
+I am excited to share that I will be joining the AGI Lab @ Westlake University as a visiting student, advised by [Dr. Chi Zhang](https://icoz69.github.io/).

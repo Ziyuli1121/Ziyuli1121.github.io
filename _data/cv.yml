@@ -38,7 +38,7 @@
       #   - name: Research Group
       #     url: https://zhaogroup.chbe.illinois.edu/
       description:
-        - Working on generative model theories and AI agents
+        - Working on generative model theories, especially test-time scaling techniques for diffusion and flow models
     
     - title: Undergraduate Researcher
       institution: Zhao Group @ Carl R. Woese Institute for Genomic Biology

@@ -29,9 +29,11 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hi! I’m Ziyu Li, a junior at the University of Illinois Urbana-Champaign majoring in Mathematics (Data Optimization Concentration).
+Hi! I’m Ziyu Li, a senior at the University of Illinois Urbana-Champaign majoring in Mathematics (Data Optimization Concentration).
 
-I'm passionate about applying novel machine learning and AI techniques to solve challenges in synthetic biology and protein engineering. I currently work as an undergraduate researcher in the [Zhao Group @ UIUC](https://zhaogroup.chbe.illinois.edu), advised by [Dr. Huimin Zhao](https://chbe.illinois.edu/people/profile/zhao5), where I develop deep learning models for challenging protein engineering tasks. I am mainly focusing on **graph-based protein representation**, **multi-modal co-contrastive learning in non-Euclidean space**, and **biological knowledge graph**.
+I'm passionate about applying novel machine learning and AI techniques to solve challenges in synthetic biology and protein engineering. I currently work as an undergraduate researcher in the [Zhao Group @ UIUC](https://zhaogroup.chbe.illinois.edu), advised by [Dr. Huimin Zhao](https://chbe.illinois.edu/people/profile/zhao5), where I develop deep learning models for challenging protein engineering tasks. I am mainly focusing on **protein foundation models**, **conditional enzyme design**, and **biological knowledge graph**.
+
+I am also working as a research intern in the AGI Lab @ Westlake University, advised by [Dr. Chi Zhang](https://icoz69.github.io/), where I primarily focus on optimizing **diffusion and flow-based models**.
 
 I'm a James Scholar and have been on the Dean’s List every semester.
 

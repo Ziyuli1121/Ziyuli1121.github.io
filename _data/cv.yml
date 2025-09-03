@@ -166,9 +166,9 @@
         - Designed hybrid rule-based & Random Forest recommendation system for credit limit adjustment
         - Delivered actionable insights for low-risk growth and risk control
     
-    - title: LAS Dean's list (Fall 2024)
+    - title: LAS Dean's list (Spring 2024, Fall 2024, Spring 2025)
       institution: Issued by University of Illinois Urbana-Champaign
-      year: Jan 2025
+      year:
       # image: assets/img/projects/eeg-project.jpg
       # links:
       #   - name: Dean's List
@@ -199,12 +199,6 @@
         - Identified key brain regions involved in language processing
         - Achieved over 94% prediction accuracy
     
-    - title: LAS Dean's list (Spring 2024)
-      institution: Issued by University of Illinois Urbana-Champaign
-      year: Jun 2024
-      # image: assets/img/projects/eeg-project.jpg
-      description:
-        - Top student academic achievement recognition
     
     - title: National First Prize in Mathematical Modeling
       institution: Shanghai, China

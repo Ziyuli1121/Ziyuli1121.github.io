@@ -3,8 +3,8 @@ layout: about
 title: About
 permalink: /
 subtitle: >
-  <i>Department of Mathematics</i><br>
-  <i>Carl R. Woese Institute for Genomic Biology</i>
+  <i></i><br>
+  <i></i>
 
 profile:
   align: right
@@ -31,14 +31,8 @@ latest_posts:
 
 Hi! I’m Ziyu Li, a senior at the University of Illinois Urbana-Champaign majoring in Mathematics (Data Optimization Concentration).
 
-I'm passionate about applying novel machine learning and AI techniques to solve challenges in synthetic biology and protein engineering. I currently work as an undergraduate researcher in the [Zhao Group @ UIUC](https://zhaogroup.chbe.illinois.edu), advised by [Dr. Huimin Zhao](https://chbe.illinois.edu/people/profile/zhao5), where I develop deep learning models for challenging protein engineering tasks. I am mainly focusing on **protein foundation models**, **conditional enzyme design**, and **biological knowledge graph**.
+My primary research interest is AI for Science. Specifically, I focus on representation learning for molecular/biological systems (e.g. geometric deep learning ) and physics-aware generative modeling (e.g., diffusion, flow matching) for de novo enzyme design.
 
-I am also working as a research intern in the AGI Lab @ Westlake University, advised by [Dr. Chi Zhang](https://icoz69.github.io/), where I primarily focus on optimizing **diffusion and flow-based models**.
+I am currently advised by [Prof. Huimin Zhao](https://chbe.illinois.edu/people/profile/zhao5) as an undergraduate researcher at the [Zhao Group](https://zhaogroup.web.illinois.edu/index.html) and concurrently by [Prof. Chi Zhang](https://icoz69.github.io/) during my internship at the AGI Lab @ Westlake University; I am also collaborating with [Prof. Shengchao Liu](https://chao1224.github.io/) at the Chinese University of Hong Kong. 
 
-I'm a James Scholar and have been on the Dean’s List every semester.
-
-Beyond academics, I serve as an Education Lead for the [Illinois Data Science Club](https://linktr.ee/illinoisdatascienceclub?utm_source=linktree_profile_share&ltsid=c5e4ec89-c19e-4700-b923-b4281395ea35), where I design curriculum resources, organize workshops, and support members in learning data science through hands-on projects.
-
-I am currently preparing to apply for graduate programs starting in Fall 2026. I am particularly interested in generative models and AI for science, especially de novo enzyme design.
-
-In my free time, I have been playing the piano for over 15 years, and you might also find me on the soccer field.
+I am actively applying for graduate programs starting in Fall 2026.

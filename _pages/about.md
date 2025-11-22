@@ -31,7 +31,7 @@ latest_posts:
 
 Hi! I’m Ziyu Li, a senior at the University of Illinois Urbana-Champaign majoring in Mathematics (Data Optimization Concentration).
 
-My primary research interest is AI for Science. Specifically, I focus on representation learning for molecular/biological systems (e.g. geometric deep learning ) and physics-aware generative modeling (e.g., diffusion, flow matching) for de novo enzyme design.
+My primary research interest is AI for Science. Specifically, I focus on representation learning for biological systems and physics-inspired generative AI (e.g., diffusion, flow matching) for bioactivity reasoning and de novo enzyme design.
 
 I am currently advised by [Prof. Huimin Zhao](https://chbe.illinois.edu/people/profile/zhao5) as an undergraduate researcher at the [Zhao Group](https://zhaogroup.web.illinois.edu/index.html) and concurrently by [Prof. Chi Zhang](https://icoz69.github.io/) during my internship at the AGI Lab @ Westlake University; I am also collaborating with [Prof. Shengchao Liu](https://chao1224.github.io/) at the Chinese University of Hong Kong. 
 

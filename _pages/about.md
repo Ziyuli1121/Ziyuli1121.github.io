@@ -35,4 +35,4 @@ My primary research interest is AI for Science. Specifically, I focus on represe
 
 I am currently advised by [Prof. Huimin Zhao](https://chbe.illinois.edu/people/profile/zhao5) as an undergraduate researcher at the [Zhao Group](https://zhaogroup.web.illinois.edu/index.html) and concurrently by [Prof. Chi Zhang](https://icoz69.github.io/) during my internship at the AGI Lab @ Westlake University; I am also collaborating with [Prof. Shengchao Liu](https://chao1224.github.io/) at the Chinese University of Hong Kong. 
 
-I am actively applying for graduate programs starting in Fall 2026.
+I am actively applying for graduate programs in computer science, starting in Fall 2026.

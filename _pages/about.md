@@ -37,14 +37,16 @@ I am currently advised by [Prof. Huimin Zhao](https://zhaogroup.web.illinois.edu
 
 I am actively applying for graduate programs in computer science, starting in Fall 2026.
 
+Email: ziyul6@illinois.edu
+
 <details markdown="1">
 <summary>Hobbies</summary>
-
+<br>
 I have been playing the piano for over 15 years. My favorite pianist is the legendary [Martha Argerich](https://www.youtube.com/watch?v=5V8XazLfPWk). I am also greatly inspired by contemporary composer [Andy Zhan](https://www.youtube.com/watch?v=lwpR1_7RDZA).
 
 Feel free to listen to me play one of my favorite piano pieces!
 <div class="audio-player">
-  <p class="audio-player__title">Recent piano recording</p>
+  <p class="audio-player__title"></p>
   <audio id="piano-audio" controls preload="none" controlslist="nodownload" src="{{ '/assets/audio/piano.mp3' | relative_url }}">
     <source src="{{ '/assets/audio/piano.mp3' | relative_url }}" type="audio/mpeg">
     Your browser does not support the audio element.
@@ -58,7 +60,7 @@ I reached Master rank (about the top 0.5%) on the League of Legends China server
 You might also find me on the soccer field.
 
 </details>
-
+<div style="height: 20px;"></div>
 <style>
 .audio-player {
   margin: 0.5rem 0 1rem;
@@ -71,5 +73,11 @@ You might also find me on the soccer field.
 .audio-player audio {
   width: 100%;
   max-width: 520px;
+}
+details[markdown="1"] > p:first-of-type {
+  margin-top: 0.9rem;
+}
+details[markdown="1"] > summary {
+  margin-bottom: 0.75rem;
 }
 </style>

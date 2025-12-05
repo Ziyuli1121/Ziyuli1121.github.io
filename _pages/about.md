@@ -33,6 +33,43 @@ Hi! I’m Ziyu Li, a senior at the University of Illinois Urbana-Champaign major
 
 My primary research interest is AI for Science. Specifically, I focus on representation learning for biological systems and physics-inspired generative AI (e.g., diffusion, flow matching) for bioactivity reasoning and de novo enzyme design.
 
-I am currently advised by [Prof. Huimin Zhao](https://chbe.illinois.edu/people/profile/zhao5) as an undergraduate researcher at the [Zhao Group](https://zhaogroup.web.illinois.edu/index.html) and concurrently by [Prof. Chi Zhang](https://icoz69.github.io/) during my internship at the AGI Lab @ Westlake University; I am also collaborating with [Prof. Shengchao Liu](https://chao1224.github.io/) at the Chinese University of Hong Kong. 
+I am currently advised by [Prof. Huimin Zhao](https://zhaogroup.web.illinois.edu/index.html) as an undergraduate researcher at the Carl R. Woese Institute for Genomic Biology, and concurrently by [Prof. Chi Zhang](https://icoz69.github.io/) during my internship at the AGI Lab @ Westlake University. I am also collaborating with [Prof. Shengchao Liu](https://chao1224.github.io/) at the Chinese University of Hong Kong. 
 
 I am actively applying for graduate programs in computer science, starting in Fall 2026.
+
+<details markdown="1">
+<summary>Hobbies</summary>
+
+I have been playing the piano for over 15 years. My favorite pianist is the legendary [Martha Argerich](https://www.youtube.com/watch?v=5V8XazLfPWk). I am also greatly inspired by contemporary composer [Andy Zhan](https://www.youtube.com/watch?v=lwpR1_7RDZA).
+
+Feel free to listen to me play one of my favorite piano pieces!
+<div class="audio-player">
+  <p class="audio-player__title">Recent piano recording</p>
+  <audio id="piano-audio" controls preload="none" controlslist="nodownload" src="{{ '/assets/audio/piano.mp3' | relative_url }}">
+    <source src="{{ '/assets/audio/piano.mp3' | relative_url }}" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+</div>
+
+I like reading poetry. My favorite poet is Luo Yihe.
+
+I reached Master rank (about the top 0.5%) on the League of Legends China server, Ionia.
+
+You might also find me on the soccer field.
+
+</details>
+
+<style>
+.audio-player {
+  margin: 0.5rem 0 1rem;
+}
+.audio-player__title {
+  margin: 0 0 0.35rem;
+  font-weight: 600;
+  color: var(--global-text-color, #111);
+}
+.audio-player audio {
+  width: 100%;
+  max-width: 520px;
+}
+</style>

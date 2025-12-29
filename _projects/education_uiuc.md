@@ -11,5 +11,4 @@ category: education
 ### 2024 – 2026 (expected)
 
 - Data Optimization Concentration
-- Minor in Computer Science
-- GPA: 4.0/4.0 
+- GPA: 3.98/4.0 

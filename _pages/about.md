@@ -36,7 +36,7 @@ My research focuses on **Generative Models** and **AI for Science**. Specificall
 Currently, I am fortunate to be advised by: 
 - [Prof. Huimin Zhao](https://zhaogroup.web.illinois.edu/index.html) as an undergraduate researcher at the Carl R. Woese Institute for Genomic Biology @ UIUC.
 - [Prof. Chi Zhang](https://icoz69.github.io/) during my internship at the AGI Lab @ Westlake University. 
-<!-- - [Prof. Shengchao Liu](https://chao1224.github.io/) at the AI & Physics Lab @ CUHK.  -->
+- [Prof. Shengchao Liu](https://chao1224.github.io/) at the AI & Physics Lab @ CUHK. 
 
 <details markdown="1">
 <summary>Hobbies</summary>

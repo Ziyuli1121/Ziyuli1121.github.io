@@ -33,10 +33,8 @@ Hi! I’m Ziyu Li, a senior at the University of Illinois Urbana-Champaign (UIUC
 
 My research focuses on **Generative Models** and **AI for Science**. Specifically, I am interested in generative AI theories, physics-inspired generative AI and multimodal representation learning for biological systems.
 
-Currently, I am fortunate to be advised by: 
-- [Prof. Huimin Zhao](https://zhaogroup.web.illinois.edu/index.html) as an undergraduate researcher at the Carl R. Woese Institute for Genomic Biology @ UIUC.
-- [Prof. Chi Zhang](https://icoz69.github.io/) during my internship at the AGI Lab @ Westlake University. 
-- [Prof. Shengchao Liu](https://chao1224.github.io/) at the AI & Physics Lab @ CUHK. 
+Currently, I am fortunate to be advised by [Prof. Shengchao Liu](https://chao1224.github.io/) at CUHK. Previously, I was fortunate to be advised by [Prof. Huimin Zhao](https://zhaogroup.web.illinois.edu/index.html) at UIUC and [Prof. Chi Zhang](https://icoz69.github.io/) at Westlake University.
+
 
 <details markdown="1">
 <summary>Hobbies</summary>

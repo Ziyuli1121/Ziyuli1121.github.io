@@ -30,6 +30,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/honor/";
           },
+        },{id: "nav-blogs",
+          title: "Blogs",
+          description: "My personal blogs on Notion",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/blogs/";
+          },
         },{id: "books-the-godfather",
           title: 'The Godfather',
           description: "",

@@ -43,6 +43,42 @@ layout: default
     {% assign show_news = page.announcements and page.announcements.enabled %}
     {% assign show_publications = page.selected_papers %}
 
+    <!-- Blogs -->
+    {% if page.blogs and page.blogs.enabled %}
+      <h2>
+        <a href="{{ page.blogs.url | default: '/blogs/' | relative_url }}" style="color: inherit">{{ page.blogs.title | default: 'Blogs' }}</a>
+      </h2>
+      <div class="blogs-section">
+        <div class="table-responsive">
+          <table class="table table-sm table-borderless">
+            <tr>
+              <th scope="row" style="width: 20%">{{ page.blogs.date | date: '%b %d, %Y' }}</th>
+              <td>
+                <a class="blog-title" href="{{ page.blogs.url | default: '/blogs/' | relative_url }}">{{ page.blogs.description | default: 'Check out my personal blogs' }}</a>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <style>
+        .blogs-section {
+          margin-bottom: 1rem;
+        }
+        .blogs-section .table {
+          margin-bottom: 0;
+        }
+        .blog-title {
+          color: var(--global-theme-color);
+          text-decoration: none;
+          transition: color 0.3s ease;
+        }
+        .blog-title:hover {
+          color: var(--global-hover-color);
+          text-decoration: underline;
+        }
+      </style>
+    {% endif %}
+
     {% if show_news %}
       <h2>
         <a href="{{ '/news/' | relative_url }}" style="color: inherit">News</a>

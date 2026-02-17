@@ -36,11 +36,11 @@ blogs:
   url: https://rain-farm-1ce.notion.site/Who-am-I-when-I-talk-about-myself-2f71a04dab4c80a18622dbd3836e492f?source=copy_link # link to blogs page (can also be external URL)
 ---
 
-Hi! I’m Ziyu Li, a senior at the University of Illinois Urbana-Champaign (UIUC) majoring in Mathematics.
+Hi! I’m Ziyu Li, a senior at UIUC majoring in Mathematics. Starting in Fall 2026, I will be an incoming Computer Science PhD student at the Chinese University of Hong Kong (CUHK), advised by [Prof. Shengchao Liu](https://chao1224.github.io/).
 
-My research focuses on **Generative AI** and **AI for Science**. Specifically, I am interested in physics-inspired generative AI and multimodal representation learning for biological systems.
+My research focuses on physics-inspired and multimodal generative AI, with applications in computer vision, bioactivity reasoning, and more.
 
-Currently, I am fortunate to be advised by [Prof. Shengchao Liu](https://chao1224.github.io/) at CUHK. Previously, I was fortunate to be advised by [Prof. Huimin Zhao](https://zhaogroup.web.illinois.edu/index.html) at UIUC and [Prof. Chi Zhang](https://icoz69.github.io/) at Westlake University.
+Previously, I was fortunate to be advised by [Prof. Huimin Zhao](https://zhaogroup.web.illinois.edu/index.html) at UIUC and [Prof. Chi Zhang](https://icoz69.github.io/) at Westlake University.
 
 
 <details markdown="1">

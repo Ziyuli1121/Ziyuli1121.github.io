@@ -2,37 +2,44 @@
 layout: page
 title: Blogs
 permalink: /blogs/
-description: My personal blogs on Notion
+description: 
 nav: true
 nav_order: 6
 ---
 
-<div class="notion-embed-container">
-  <iframe 
-    src="https://rain-farm-1ce.notion.site/ebd//2f71a04dab4c80a18622dbd3836e492f" 
-    width="100%" 
-    height="800" 
-    frameborder="0" 
-    allowfullscreen>
-  </iframe>
+<div class="blogs-list">
+  <div class="table-responsive">
+    <table class="table table-sm table-borderless">
+      <tr>
+        <th scope="row" style="width: 20%">Mar 09, 2026</th>
+        <td>
+          <a class="blog-title" href="http://waveintell.ai/blog/2024-kflow_1_en/">Frequency-guided flow generation? No, not just frequency, but energy (Part I)</a>
+        </td>
+      </tr>
+      <tr>
+        <th scope="row" style="width: 20%">Jan 29, 2026</th>
+        <td>
+          <a class="blog-title" href="https://rain-farm-1ce.notion.site/Who-am-I-when-I-talk-about-myself-2f71a04dab4c80a18622dbd3836e492f?source=copy_link">Who am I, when I talk about myself?</a>
+        </td>
+      </tr>
+    </table>
+  </div>
 </div>
 
 <style>
-  .notion-embed-container {
-    width: 100%;
-    margin: 0 auto;
-    border-radius: 8px;
-    overflow: hidden;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  .blogs-list {
+    margin-top: 1rem;
   }
-  
-  .notion-embed-container iframe {
-    display: block;
-    border: none;
+  .blogs-list .table {
+    margin-bottom: 0;
   }
-  
-  /* 适配暗色模式 */
-  html[data-theme="dark"] .notion-embed-container {
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+  .blog-title {
+    color: var(--global-theme-color);
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  .blog-title:hover {
+    color: var(--global-hover-color);
+    text-decoration: underline;
   }
 </style>

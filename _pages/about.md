@@ -31,9 +31,13 @@ latest_posts:
 blogs:
   enabled: true # includes a link to blogs
   title: Blogs # section title
-  date: 2026-01-29 # date of the blog post
-  description: "Who am I, when I talk about myself?" # description shown on homepage
-  url: https://rain-farm-1ce.notion.site/Who-am-I-when-I-talk-about-myself-2f71a04dab4c80a18622dbd3836e492f?source=copy_link # link to blogs page (can also be external URL)
+  items:
+    - date: 2026-03-09
+      description: "Frequency-guided flow generation? No, not just frequency, but energy (Part I)"
+      url: http://waveintell.ai/blog/2024-kflow_1_en/
+    - date: 2026-01-29
+      description: "Who am I, when I talk about myself?"
+      url: https://rain-farm-1ce.notion.site/Who-am-I-when-I-talk-about-myself-2f71a04dab4c80a18622dbd3836e492f?source=copy_link
 ---
 
 Hi! I’m Ziyu Li, a senior at UIUC majoring in Mathematics. Starting in Fall 2026, I will be an incoming Computer Science PhD student at the Chinese University of Hong Kong (CUHK), advised by [Prof. Shengchao Liu](https://chao1224.github.io/).

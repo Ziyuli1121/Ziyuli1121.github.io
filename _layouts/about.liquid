@@ -46,17 +46,19 @@ layout: default
     <!-- Blogs -->
     {% if page.blogs and page.blogs.enabled %}
       <h2>
-        <a href="{{ page.blogs.url | default: '/blogs/' | relative_url }}" style="color: inherit">{{ page.blogs.title | default: 'Blogs' }}</a>
+        <a href="{{ '/blogs/' | relative_url }}" style="color: inherit">{{ page.blogs.title | default: 'Blogs' }}</a>
       </h2>
       <div class="blogs-section">
         <div class="table-responsive">
           <table class="table table-sm table-borderless">
-            <tr>
-              <th scope="row" style="width: 20%">{{ page.blogs.date | date: '%b %d, %Y' }}</th>
-              <td>
-                <a class="blog-title" href="{{ page.blogs.url | default: '/blogs/' | relative_url }}">{{ page.blogs.description | default: 'Check out my personal blogs' }}</a>
-              </td>
-            </tr>
+            {% for item in page.blogs.items %}
+              <tr>
+                <th scope="row" style="width: 20%">{{ item.date | date: '%b %d, %Y' }}</th>
+                <td>
+                  <a class="blog-title" href="{{ item.url }}">{{ item.description }}</a>
+                </td>
+              </tr>
+            {% endfor %}
           </table>
         </div>
       </div>

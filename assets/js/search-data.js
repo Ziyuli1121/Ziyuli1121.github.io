@@ -32,7 +32,7 @@ ninja.data = [{
           },
         },{id: "nav-blogs",
           title: "Blogs",
-          description: "My personal blogs on Notion",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/blogs/";

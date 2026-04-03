@@ -44,9 +44,6 @@ Hi! I’m Ziyu Li, a senior at UIUC majoring in Mathematics. Starting in Fall 20
 
 My research focuses on physics-inspired and multimodal generative AI, with applications in computer vision, bioactivity reasoning, and more.
 
-Previously, I was fortunate to be advised by [Prof. Huimin Zhao](https://zhaogroup.web.illinois.edu/index.html) at UIUC and [Prof. Chi Zhang](https://icoz69.github.io/) at Westlake University.
-
-
 <details markdown="1">
 <summary>Hobbies</summary>
 <br>

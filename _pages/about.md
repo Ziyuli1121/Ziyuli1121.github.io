@@ -42,14 +42,14 @@ blogs:
 
 Hi! I’m Ziyu Li, a senior at UIUC majoring in Mathematics. Starting in Fall 2026, I will be an incoming Computer Science PhD student at the Chinese University of Hong Kong (CUHK), advised by [Prof. Shengchao Liu](https://chao1224.github.io/).
 
-My research focuses on physics-inspired and multimodal generative AI, with applications in computer vision, bioactivity reasoning, and more.
+I study Generative AI, with broad applications in computer vision, bioactivity reasoning, and beyond.
 
 <details markdown="1">
 <summary>Hobbies</summary>
 <br>
-I have been playing the piano for over 17 years. My favorite pianist is the legendary [Martha Argerich](https://www.youtube.com/watch?v=5V8XazLfPWk). I am also greatly inspired by contemporary composer [Andy Zhan](https://www.youtube.com/watch?v=lwpR1_7RDZA).
+I have been playing the piano for over 17 years. My favorite pianist is the legendary [Martha Argerich](https://www.youtube.com/watch?v=5V8XazLfPWk). I am also inspired by contemporary composer [Andy Zhan](https://www.youtube.com/watch?v=lwpR1_7RDZA).
 
-Feel free to listen to me play one of my favorite piano pieces!
+Feel free to listen to me play one of my favorite piano pieces.
 <div class="audio-player">
   <p class="audio-player__title"></p>
   <audio id="piano-audio" controls preload="none" controlslist="nodownload" src="{{ '/assets/audio/piano.mp3' | relative_url }}">
@@ -60,7 +60,7 @@ Feel free to listen to me play one of my favorite piano pieces!
 
 I like reading poetry. My favorite poet is Luo Yihe.
 
-I reached Master rank (about the top 0.5%) on the League of Legends China server, Ionia.
+I reached Master rank (about the top 0.5%) on League of Legends.
 
 You might also find me on the soccer field.
 

@@ -1424,6 +1424,13 @@ figure.cover {
   margin-top: 2rem;
   margin-bottom: 1rem;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 1rem;
+}
+
+.clustrmaps-quote {
+  margin: 0;
+  max-width: 48rem;
 }

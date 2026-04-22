@@ -1,6 +1,6 @@
 ---
 layout: post
-title: I am happy to have received an offer from CUHK's CS PhD program for Fall 2026
+title: .
 date: 2026-02-27 17:24:00-0400
 inline: true
 related_posts: false

@@ -42,6 +42,8 @@ blogs:
 
 Hi! I’m Ziyu Li, a senior at UIUC majoring in Mathematics. Starting in Fall 2026, I will be an incoming Computer Science PhD student at the Chinese University of Hong Kong (CUHK), advised by [Prof. Shengchao Liu](https://chao1224.github.io/).
 
+"What I cannot create, I do not understand." - Richard Feynman
+
 I study Generative AI, with broad applications in computer vision, bioactivity reasoning, and beyond.
 
 <details markdown="1">

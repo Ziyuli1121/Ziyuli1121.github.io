@@ -11,7 +11,9 @@ layout: default
         {{ site.title }}
       {% endif %}
     </h1>
-    <p class="desc">{{ page.subtitle }}</p>
+    {% if page.subtitle %}
+      <p class="desc">{{ page.subtitle }}</p>
+    {% endif %}
   </header>
 
   <article>
@@ -32,15 +34,19 @@ layout: default
             cache_bust=true
           %}
         {% endif %}
-        {% if page.profile.more_info %}
-          <div class="more-info">{{ page.profile.more_info }}</div>
+        {% assign profile_more_info = page.profile.more_info | strip %}
+        {% if profile_more_info != '' %}
+          <div class="more-info">{{ profile_more_info }}</div>
         {% endif %}
       </div>
     {% endif %}
 
     <div class="clearfix">{{ content }}</div>
 
-    {% assign show_news = page.announcements and page.announcements.enabled %}
+    {% assign show_news = false %}
+    {% if page.announcements and page.announcements.enabled %}
+      {% assign show_news = true %}
+    {% endif %}
     {% assign show_publications = page.selected_papers %}
 
     <!-- Blogs -->
@@ -89,9 +95,7 @@ layout: default
     {% endif %}
 
     {% if show_publications %}
-      <h2>
-        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">Publications</a>
-      </h2>
+      <h2>Publications</h2>
       {% include selected_papers.liquid %}
     {% endif %}
 

@@ -224,4 +224,30 @@
   height: 1.2em;
   width: auto;
   box-shadow: none;
-} 
+}
+
+/* Keep compact list tables legible in both light and dark modes. */
+.news .table,
+.news .table th,
+.news .table td,
+.blogs-section .table,
+.blogs-section .table th,
+.blogs-section .table td,
+.blogs-list .table,
+.blogs-list .table th,
+.blogs-list .table td {
+  color: var(--global-text-color);
+}
+
+.news .table th,
+.blogs-section .table th,
+.blogs-list .table th {
+  color: var(--global-text-color);
+  font-weight: 700;
+}
+
+.news .table td,
+.blogs-section .table td,
+.blogs-list .table td {
+  opacity: 1;
+}

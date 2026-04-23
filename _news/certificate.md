@@ -7,11 +7,3 @@ related_posts: false
 ---
 
 I received the **Distinguished Undergraduate Researcher Certificate** from UIUC.
-
-<!-- <div class="image-container">
-  <img src="/assets/img/DATATHON.jpg" alt="Datathon Achievement Photo">
-  <div class="caption">Our team having a small celebration at Texas Roadhouse!</div>
-</div> -->
-
-
-

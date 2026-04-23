@@ -4,7 +4,7 @@ title: Projects
 permalink: /projects/
 description:
 nav: true
-nav_order: 4
+nav_order: 2
 ---
 
 <!-- Lightbox Modal -->
@@ -19,6 +19,7 @@ nav_order: 4
   {% for entry in site.data.cv %}
     {% if entry.title == "Projects" %}
       {% for project in entry.contents %}
+        {% if forloop.index <= 2 %}
       
       <div class="card mt-3 p-3">
         <div class="row no-gutters">
@@ -62,7 +63,65 @@ nav_order: 4
         </div>
       </div>
       
+        {% endif %}
       {% endfor %}
+
+      <details class="projects-more">
+        <summary>
+          <span class="projects-more__label projects-more__label--closed">More projects</span>
+          <span class="projects-more__label projects-more__label--open">Show less</span>
+          <span class="projects-more__chevron" aria-hidden="true"></span>
+        </summary>
+        <div class="projects-more__content">
+          {% for project in entry.contents %}
+            {% if forloop.index > 2 %}
+
+            <div class="card mt-3 p-3">
+              <div class="row no-gutters">
+                {% if project.image %}
+                <div class="col-md-4">
+                  <img src="{{ project.image | relative_url }}" class="card-img project-image lightbox-trigger" alt="{{ project.title }}" data-title="{{ project.title }}">
+                </div>
+                <div class="col-md-8">
+                {% else %}
+                <div class="col-12">
+                {% endif %}
+                  <div class="card-body">
+                    <h5 class="card-title">{{ project.title }}</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">{{ project.institution }}</h6>
+                    <p class="card-text">{{ project.year }}</p>
+                    {% if project.description %}
+                    <ul class="card-text font-weight-light">
+                      {% for item in project.description %}
+                      <li>{{ item }}</li>
+                      {% endfor %}
+                    </ul>
+                    {% endif %}
+
+                    {% if project.links %}
+                    <div class="project-links mt-3">
+                      {% for link in project.links %}
+                        <a href="{{ link.url }}" target="_blank" class="btn btn-sm project-link-btn">
+                          {{ link.name }}
+                        </a>
+                      {% endfor %}
+                    </div>
+                    {% elsif project.url %}
+                    <div class="project-links mt-3">
+                      <a href="{{ project.url }}" target="_blank" class="btn btn-sm project-link-btn">
+                        Visit Project
+                      </a>
+                    </div>
+                    {% endif %}
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {% endif %}
+          {% endfor %}
+        </div>
+      </details>
     {% endif %}
   {% endfor %}
 
@@ -101,7 +160,55 @@ nav_order: 4
     max-height: 250px;
     display: block;
     margin: 0 auto;
-    cursor: pointer; /* Add pointer cursor to indicate clickable */
+    cursor: pointer;
+  }
+  .projects-more {
+    margin-top: 1rem;
+  }
+  .projects-more > summary {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.45rem;
+    padding: 0.42rem 0.8rem;
+    border: 1px solid var(--global-theme-color);
+    border-radius: 6px;
+    color: var(--global-theme-color);
+    cursor: pointer;
+    font-weight: 400;
+    line-height: 1.1;
+    list-style: none;
+    transition: all 0.2s ease;
+  }
+  .projects-more > summary::-webkit-details-marker {
+    display: none;
+  }
+  .projects-more__label--open {
+    display: none;
+  }
+  .projects-more[open] .projects-more__label--closed {
+    display: none;
+  }
+  .projects-more[open] .projects-more__label--open {
+    display: inline;
+  }
+  .projects-more__chevron {
+    border-bottom: 2px solid currentColor;
+    border-right: 2px solid currentColor;
+    display: inline-block;
+    height: 0.45rem;
+    transform: rotate(45deg) translateY(-2px);
+    transition: transform 0.2s ease;
+    width: 0.45rem;
+  }
+  .projects-more[open] .projects-more__chevron {
+    transform: rotate(225deg) translateY(-1px);
+  }
+  .projects-more > summary:hover {
+    background-color: var(--global-theme-color);
+    color: white;
+  }
+  .projects-more__content {
+    margin-top: 0.75rem;
   }
   @media (max-width: 767.98px) {
     .project-image {

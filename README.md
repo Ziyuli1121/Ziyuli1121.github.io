@@ -13,7 +13,7 @@ Open <http://127.0.0.1:8080/>.
 ## Content Map
 
 - `_pages/about.md`: homepage content
-- `_data/cv.yml`: education, projects, honors, and experience sections
+- `_data/cv.yml`: general information, projects, honors, and experience sections
 - `_news/`: news entries
 - `_bibliography/papers.bib`: selected publications
 - `assets/`: images, audio, PDFs, and other static files

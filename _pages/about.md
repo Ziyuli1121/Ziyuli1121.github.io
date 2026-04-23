@@ -39,10 +39,10 @@ Hi! I’m Ziyu Li, a senior at UIUC majoring in Mathematics. Starting in Fall 20
 
 I study Generative AI, with broad applications in computer vision, bioactivity reasoning, and beyond.
 
-<details markdown="1">
-<summary>Hobbies</summary>
+<details class="more-details" markdown="1">
+<summary><span class="more-summary__closed">More</span><span class="more-summary__open">Show less</span></summary>
 <br>
-I have been playing the piano for over 17 years. My favorite pianist is the legendary [Martha Argerich](https://www.youtube.com/watch?v=5V8XazLfPWk). I am also inspired by contemporary composer [Andy Zhan](https://www.youtube.com/watch?v=lwpR1_7RDZA).
+I have been playing the piano for over <span id="piano-years">{{ site.time | date: "%Y" | minus: 2009 }}</span> years. My favorite pianist is the legendary [Martha Argerich](https://www.youtube.com/watch?v=5V8XazLfPWk). I am also inspired by contemporary composer [Andy Zhan](https://www.youtube.com/watch?v=lwpR1_7RDZA).
 
 Feel free to listen to me play one of my favorite piano pieces.
 <div class="audio-player">
@@ -74,10 +74,28 @@ You might also find me on the soccer field.
   width: 100%;
   max-width: 520px;
 }
-details[markdown="1"] > p:first-of-type {
+.more-details > p:first-of-type {
   margin-top: 0.9rem;
 }
-details[markdown="1"] > summary {
+.more-details > summary {
   margin-bottom: 0.75rem;
 }
+.more-details > summary .more-summary__open {
+  display: none;
+}
+.more-details[open] > summary .more-summary__closed {
+  display: none;
+}
+.more-details[open] > summary .more-summary__open {
+  display: inline;
+}
 </style>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  var pianoYears = document.getElementById("piano-years");
+
+  if (pianoYears) {
+    pianoYears.textContent = String(new Date().getFullYear() - 2009);
+  }
+});
+</script>

@@ -1,7 +1,7 @@
 # Ziyu Li
 
 ```
-ziyul6@illinois.edu — +1(217)318-6593
+ziyul6 at illinois dot edu — +1(217)318-6593
 ```
 ## Personal Statement
 
@@ -147,5 +147,4 @@ Contestant Nov 2020
 
 - Languages:English (Fluent), Mandarin Chinese (Native)
 - Computer:Python, R, Java, C++, MATLAB, LabVIEW, Arduino, SolidWorks
-
 

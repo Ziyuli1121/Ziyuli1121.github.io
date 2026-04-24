@@ -54,7 +54,7 @@ nav_order: 3
   .honor-card__title {
     color: var(--global-text-color);
     font-size: 0.95rem;
-    font-weight: 600;
+    font-weight: 400;
     line-height: 1.35;
   }
   @media (max-width: 767.98px) {

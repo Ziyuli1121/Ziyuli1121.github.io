@@ -9,14 +9,7 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-education",
-          title: "Education",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/education/";
-          },
-        },{id: "nav-projects",
+  },{id: "nav-projects",
           title: "Projects",
           description: "",
           section: "Navigation",
@@ -37,12 +30,7 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/blogs/";
           },
-        },{id: "books-the-godfather",
-          title: 'The Godfather',
-          description: "",
-          section: "Books",handler: () => {
-              window.location.href = "/books/the_godfather/";
-            },},{id: "news-my-team-won-the-2nd-place-2-51-in-the-2024-sandia-national-lab-data-challenge",
+        },{id: "news-my-team-won-the-2nd-place-2-51-in-the-2024-sandia-national-lab-data-challenge",
           title: 'My team won the 2nd place (2/51) in the 2024 Sandia National Lab...',
           description: "",
           section: "News",},{id: "news-my-team-won-the-1st-place-1-180-in-the-2025-illinois-statistics-datathon",
@@ -57,57 +45,14 @@ ninja.data = [{
           section: "News",},{id: "news-i-received-the-edmund-j-james-scholar-certificate-from-uiuc",
           title: 'I received the Edmund J James Scholar Certificate from UIUC.',
           description: "",
-          section: "News",},{id: "projects-tongji-university",
-          title: 'Tongji University',
-          description: "Mechanical Engineering - Mechatronics Concentration",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/education_tongji/";
-            },},{id: "projects-university-of-illinois-urbana-champaign",
-          title: 'University of Illinois Urbana-Champaign',
-          description: "Bachelor of Science in Mathematics",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/education_uiuc/";
-            },},{id: "projects-education-lead",
-          title: 'Education Lead',
-          description: "Illinois Data Science Club",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/experience_education_lead/";
-            },},{id: "projects-undergraduate-researcher",
-          title: 'Undergraduate Researcher',
-          description: "Zhao Group @ Carl R. Woese Institute for Genomic Biology",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/experience_researcher/";
-            },},{id: "projects-undergraduate-research-symposium-presenter",
-          title: 'Undergraduate Research Symposium Presenter',
-          description: "2025 Undergraduate Research Symposium (URS)",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/experience_urs/";
-            },},{id: "projects-2024-honors",
-          title: '2024 Honors',
-          description: "Academic and Competition Achievements in 2024",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/honor_2024/";
-            },},{id: "projects-2025-honors",
-          title: '2025 Honors',
-          description: "Academic and Competition Achievements in 2025",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/honor_2025/";
-            },},{id: "projects-earlier-honors-2020-2023",
-          title: 'Earlier Honors (2020-2023)',
-          description: "Academic and Competition Achievements from 2020-2023",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/honor_earlier/";
-            },},{id: "projects-credit-card-spending-prediction-framework",
-          title: 'Credit Card Spending Prediction Framework',
-          description: "A Multi-Stage Learning Framework for Credit Card Spending Prediction, Risk Segmentation, and Limit Recommendation",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/project_credit_card/";
-            },},{id: "projects-eeg-based-bilingual-proficiency-prediction",
-          title: 'EEG-Based Bilingual Proficiency Prediction',
-          description: "Interpretable Spatiotemporal Neural Networks for EEG-Based Bilingual Proficiency Prediction",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/project_eeg/";
-            },},{
+          section: "News",},{
+        id: 'social-github',
+        title: 'GitHub',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://github.com/Ziyuli1121", "_blank");
+        },
+      },{
         id: 'social-linkedin',
         title: 'LinkedIn',
         section: 'Socials',
@@ -115,11 +60,11 @@ ninja.data = [{
           window.open("https://www.linkedin.com/in/ziyuperryli", "_blank");
         },
       },{
-        id: 'social-wechat_qr',
-        title: 'Wechat_qr',
+        id: 'social-x',
+        title: 'X',
         section: 'Socials',
         handler: () => {
-          window.open("", "_blank");
+          window.open("https://twitter.com/ZiyuLi21", "_blank");
         },
       },{
       id: 'light-theme',

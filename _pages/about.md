@@ -25,6 +25,9 @@ blogs:
   enabled: true # includes a link to blogs
   title: Blogs # section title
   items:
+    - date: 2026-04-23
+      description: "《路边野餐》中的诗"
+      url: /blogs/kaili-blues-poetry/
     - date: 2026-03-09
       description: "Frequency-guided flow generation? No, not just frequency, but energy (Part I)"
       url: http://waveintell.ai/blog/2024-kflow_1_en/
@@ -54,6 +57,8 @@ Feel free to listen to me play one of my favorite piano pieces.
 </div>
 
 I like reading poetry. My favorite poet is Luo Yihe.
+
+My favorite movie is Kaili Blues (路边野餐).
 
 I reached Master rank (about the top 0.5%) on League of Legends.
 

@@ -11,6 +11,12 @@ nav_order: 4
   <div class="table-responsive">
     <table class="table table-sm table-borderless">
       <tr>
+        <th scope="row" style="width: 20%">Apr 23, 2026</th>
+        <td>
+          <a class="blog-title" href="{{ '/blogs/kaili-blues-poetry/' | relative_url }}">《路边野餐》中的诗</a>
+        </td>
+      </tr>
+      <tr>
         <th scope="row" style="width: 20%">Mar 09, 2026</th>
         <td>
           <a class="blog-title" href="http://waveintell.ai/blog/2024-kflow_1_en/">Frequency-guided flow generation? No, not just frequency, but energy (Part I)</a>

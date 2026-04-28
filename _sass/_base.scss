@@ -242,7 +242,259 @@ ul.task-list input[type="checkbox"] {
 }
 
 .about-header {
-  margin-bottom: 1.75rem;
+  margin-bottom: 1.35rem;
+}
+
+.about-page {
+  padding-top: 0.35rem;
+
+  .post-title {
+    line-height: 1.05;
+    margin-bottom: 0;
+  }
+
+  .about-hero {
+    align-items: start;
+    border-bottom: 1px solid var(--global-divider-color);
+    display: grid;
+    gap: 2.65rem;
+    grid-template-columns: minmax(0, 1fr) minmax(230px, 285px);
+    margin-bottom: 1.55rem;
+    padding-bottom: 1.85rem;
+  }
+
+  .about-copy {
+    grid-column: 1;
+    grid-row: 1;
+    max-width: 100%;
+
+    > p {
+      line-height: 1.65;
+      margin-bottom: 1rem;
+      max-width: 42rem;
+    }
+
+    > p:first-of-type {
+      font-size: 1.03rem;
+      margin-top: 0.15rem;
+    }
+  }
+
+  .profile {
+    float: none !important;
+    grid-column: 2;
+    grid-row: 1;
+    margin: 0 !important;
+    width: 100%;
+
+    figure {
+      margin: 0;
+    }
+
+    img {
+      aspect-ratio: 4 / 3;
+      border: 1px solid var(--global-divider-color);
+      border-radius: 8px;
+      object-fit: cover;
+      width: 100%;
+    }
+  }
+
+  .more-details {
+    margin-top: 0.25rem;
+
+    > summary {
+      align-items: center;
+      color: var(--global-theme-color);
+      cursor: pointer;
+      display: inline-flex;
+      gap: 0.35rem;
+      list-style: none;
+      list-style-type: none;
+      margin-bottom: 0;
+      outline: none;
+      user-select: none;
+      width: fit-content;
+    }
+
+    > summary:focus {
+      outline: none;
+    }
+
+    > summary:focus-visible {
+      border-radius: 4px;
+      outline: 1px solid currentColor;
+      outline-offset: 3px;
+    }
+
+    > summary::-webkit-details-marker {
+      display: none;
+    }
+
+    > summary::marker {
+      content: "";
+      display: none;
+      font-size: 0;
+    }
+
+    > summary::before {
+      align-items: center;
+      border: 1px solid currentColor;
+      border-radius: 50%;
+      content: "+";
+      display: inline-flex;
+      font-size: 0.72rem;
+      height: 1rem;
+      justify-content: center;
+      line-height: 1;
+      width: 1rem;
+    }
+
+    &[open] > summary::before {
+      content: "-";
+    }
+
+    .more-details__content {
+      margin-top: 0.55rem;
+
+      > p:first-child {
+        margin-top: 0;
+      }
+    }
+  }
+
+  .audio-player {
+    margin: 0.5rem 0 1rem;
+
+    audio {
+      max-width: 520px;
+      width: 100%;
+    }
+  }
+
+  .audio-player__title {
+    color: var(--global-text-color);
+    font-weight: 600;
+    margin: 0 0 0.35rem;
+  }
+
+  article > h2 {
+    border-top: 1px solid var(--global-divider-color);
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    margin: 2rem 0 0.85rem;
+    padding-top: 1.25rem;
+
+    a:hover {
+      color: var(--global-theme-color) !important;
+      text-decoration: none;
+    }
+  }
+
+  article > h2:first-of-type {
+    border-top: 0;
+    margin-top: 0;
+    padding-top: 0;
+  }
+
+  .blogs-section,
+  .news {
+    margin-bottom: 1.8rem;
+
+    .table-responsive {
+      overflow-x: visible;
+    }
+
+    .table {
+      margin-bottom: 0;
+    }
+
+    tr {
+      border-bottom: 1px solid var(--global-divider-color);
+    }
+
+    tr:last-child {
+      border-bottom: 0;
+    }
+
+    th,
+    td {
+      line-height: 1.45;
+      padding-bottom: 0.58rem;
+      padding-top: 0.58rem;
+      vertical-align: baseline;
+    }
+
+    th {
+      color: var(--global-text-color-light);
+      font-weight: 500;
+      min-width: 10rem;
+    }
+
+    td {
+      padding-left: 0.35rem;
+    }
+  }
+
+  .blog-title,
+  .news-title {
+    text-decoration: none;
+
+    &:hover {
+      color: var(--global-hover-color);
+      text-decoration: underline;
+    }
+  }
+}
+
+@media (max-width: 767.98px) {
+  .about-page {
+    .about-hero {
+      display: flex;
+      flex-direction: column;
+      gap: 1.25rem;
+      margin-bottom: 2.25rem;
+      padding-bottom: 2rem;
+    }
+
+    .about-copy {
+      order: 1;
+    }
+
+    .profile {
+      max-width: 280px;
+      order: 2;
+    }
+
+    article > h2 {
+      font-size: 1.35rem;
+      margin-top: 1.85rem;
+    }
+
+    .blogs-section,
+    .news {
+      tr,
+      th,
+      td {
+        display: block;
+        width: 100% !important;
+      }
+
+      tr {
+        padding: 0.55rem 0;
+      }
+
+      th,
+      td {
+        padding: 0;
+      }
+
+      td {
+        padding-top: 0.2rem;
+      }
+    }
+  }
 }
 
 // Navbar customization

@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Blogs
+title: Writing / Notes
 permalink: /blogs/
 description: 
 nav: true
-nav_order: 4
+nav_order: 3
 ---
 
 <div class="blogs-list">

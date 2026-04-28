@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<div class="post">
+<div class="post about-page">
   <header class="post-header about-header">
     <h1 class="post-title">
       {% if site.title == 'blank' %}
@@ -17,31 +17,33 @@ layout: default
   </header>
 
   <article>
-    {% if page.profile %}
-      <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
-        {% if page.profile.image %}
-          {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
-          {% if page.profile.image_circular %}
-            {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
-          {% else %}
-            {% assign profile_image_class = 'img-fluid z-depth-1
-      rounded' %}
+    <section class="about-hero">
+      {% if page.profile %}
+        <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
+          {% if page.profile.image %}
+            {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
+            {% if page.profile.image_circular %}
+              {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
+            {% else %}
+              {% assign profile_image_class = 'img-fluid z-depth-1
+        rounded' %}
+            {% endif %}
+            {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px)
+        30vw, 95vw"{% endcapture %}
+            {%
+              include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image
+              cache_bust=true
+            %}
           {% endif %}
-          {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px)
-      30vw, 95vw"{% endcapture %}
-          {%
-            include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image
-            cache_bust=true
-          %}
-        {% endif %}
-        {% assign profile_more_info = page.profile.more_info | strip %}
-        {% if profile_more_info != '' %}
-          <div class="more-info">{{ profile_more_info }}</div>
-        {% endif %}
-      </div>
-    {% endif %}
+          {% assign profile_more_info = page.profile.more_info | strip %}
+          {% if profile_more_info != '' %}
+            <div class="more-info">{{ profile_more_info }}</div>
+          {% endif %}
+        </div>
+      {% endif %}
 
-    <div class="clearfix">{{ content }}</div>
+      <div class="about-copy clearfix">{{ content }}</div>
+    </section>
 
     {% assign show_news = false %}
     {% if page.announcements and page.announcements.enabled %}
@@ -52,7 +54,7 @@ layout: default
     <!-- Blogs -->
     {% if page.blogs and page.blogs.enabled %}
       <h2>
-        <a href="{{ '/blogs/' | relative_url }}" style="color: inherit">{{ page.blogs.title | default: 'Blogs' }}</a>
+        <a href="{{ '/blogs/' | relative_url }}" style="color: inherit">{{ page.blogs.title | default: 'Writing / Notes' }}</a>
       </h2>
       <div class="blogs-section">
         <div class="table-responsive">
@@ -68,23 +70,6 @@ layout: default
           </table>
         </div>
       </div>
-      <style>
-        .blogs-section {
-          margin-bottom: 1rem;
-        }
-        .blogs-section .table {
-          margin-bottom: 0;
-        }
-        .blog-title {
-          color: var(--global-theme-color);
-          text-decoration: none;
-          transition: color 0.3s ease;
-        }
-        .blog-title:hover {
-          color: var(--global-hover-color);
-          text-decoration: underline;
-        }
-      </style>
     {% endif %}
 
     {% if show_news %}
@@ -124,7 +109,7 @@ layout: default
     <div class="clustrmaps-container mt-5">
       <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=_1ehrRSrrdvbANY18Apfq1kSXpoSVZnc1tyrsKavKCY&w=250"></script>
       <p class="clustrmaps-quote">
-        巧者劳而知者忧，无能者无所求，饱食而遨游，泛若不系之舟。——《庄子·列御寇》
+        Life is but a sober walk through a dream.
       </p>
     </div>
   </article>

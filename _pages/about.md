@@ -57,7 +57,7 @@ Feel free to listen to me play one of my favorite piano pieces.
   </audio>
 </div>
 
-I like reading poetry. My favorite poet is Luo Yihe.
+I like reading poetry. My favorite poet is Luo Yihe (骆一禾).
 
 My favorite movie is Kaili Blues (路边野餐). Feel free to watch [A short clip appreciation](https://weibo.com/tv/show/1034:4669011594772597?from=old_pc_videoshow&mark_id=999_reallog_mark_ad%3A999%7CWeiboADNatural) I made for this film four years ago.
 

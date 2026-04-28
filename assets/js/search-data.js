@@ -9,22 +9,15 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-projects",
-          title: "Projects",
+  },{id: "nav-portfolio",
+          title: "Portfolio",
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/projects/";
+            window.location.href = "/portfolio/";
           },
-        },{id: "nav-honors-amp-awards",
-          title: "Honors &amp; Awards",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/honor/";
-          },
-        },{id: "nav-blogs",
-          title: "Blogs",
+        },{id: "nav-writing-notes",
+          title: "Writing / Notes",
           description: "",
           section: "Navigation",
           handler: () => {

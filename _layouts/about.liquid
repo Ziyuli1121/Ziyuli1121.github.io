@@ -73,8 +73,9 @@ layout: default
     {% endif %}
 
     {% if show_news %}
-      <h2>
-        <a href="{{ '/news/' | relative_url }}" style="color: inherit">News</a>
+      <h2 class="section-heading section-heading--split">
+        <span>News</span>
+        <span class="section-heading__hint">Scroll for more</span>
       </h2>
       {% include news.liquid limit=true %}
     {% endif %}

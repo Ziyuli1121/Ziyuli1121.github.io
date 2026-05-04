@@ -38,6 +38,9 @@ ninja.data = [{
           section: "News",},{id: "news-i-received-the-edmund-j-james-scholar-certificate-from-uiuc",
           title: 'I received the Edmund J James Scholar Certificate from UIUC.',
           description: "",
+          section: "News",},{id: "news-our-paper-epd-solver-via-rdpo-has-been-accepted-to-ieee-tpami",
+          title: '🎉 Our paper EPD-Solver via RDPO has been accepted to IEEE TPAMI.',
+          description: "",
           section: "News",},{
         id: 'social-github',
         title: 'GitHub',

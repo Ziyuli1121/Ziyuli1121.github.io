@@ -35,11 +35,11 @@ blogs:
       url: https://rain-farm-1ce.notion.site/Who-am-I-when-I-talk-about-myself-2f71a04dab4c80a18622dbd3836e492f?source=copy_link
 ---
 
-Hi, I'm Ziyu, an incoming Computer Science PhD student at the Chinese University of Hong Kong (CUHK), advised by [Prof. Shengchao Liu](https://chao1224.github.io/).
+I'm an incoming CS PhD student at CUHK, advised by [Prof. Shengchao Liu](https://chao1224.github.io/).
 
-"What I cannot create, I do not understand." - Richard Feynman
+I study GenAI.
 
-I study Generative AI, with broad applications in computer vision, bioactivity reasoning, and beyond.
+<p class="feynman-quote"><span>“What I cannot create, I do not understand.”</span><cite>Richard Feynman</cite></p>
 
 <details class="more-details" markdown="1">
 <summary><span class="more-summary__label">More</span></summary>

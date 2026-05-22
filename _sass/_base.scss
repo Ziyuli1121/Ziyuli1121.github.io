@@ -454,7 +454,7 @@ ul.task-list input[type="checkbox"] {
     }
 
     .news-scrollable {
-      max-height: clamp(11.5rem, 30vh, 13rem);
+      max-height: clamp(7rem, 18vh, 8rem);
       overflow-x: hidden;
       overflow-y: auto;
       padding-right: 0.35rem;
@@ -576,7 +576,7 @@ ul.task-list input[type="checkbox"] {
       }
 
       .news-scrollable {
-        max-height: 18.5rem;
+        max-height: 10.5rem;
         overflow-y: auto;
         padding-right: 0.35rem;
       }

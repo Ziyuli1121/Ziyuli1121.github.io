@@ -37,4 +37,4 @@ blogs:
 
 I'm an incoming CS PhD student at CUHK, advised by [Prof. Shengchao Liu](https://chao1224.github.io/).
 
-I study multi-scale generative modeling, aiming to build models that discover, represent, and generate across hierarchical scales.
+I study multi-scale generative modeling, aiming to build models that discover, represent, and generate structure across hierarchical scales. My interests span efficient inference, multimodal representation learning, controllable generation, and physical-world modeling and understanding.

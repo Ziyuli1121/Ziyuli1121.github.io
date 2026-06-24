@@ -47,6 +47,12 @@ nav_order: 3
     <div class="table-responsive">
       <table class="table table-sm table-borderless">
         <tr>
+          <th scope="row" style="width: 20%">Jun 24, 2026</th>
+          <td>
+            <a class="blog-title" href="{{ '/assets/slides/world-models-2026-06-24.pdf' | relative_url }}">World Models</a>
+          </td>
+        </tr>
+        <tr>
           <th scope="row" style="width: 20%">Apr 23, 2026</th>
           <td>
             <a class="blog-title" href="{{ '/blogs/kaili-blues-poetry/' | relative_url }}">《路边野餐》中的诗</a>

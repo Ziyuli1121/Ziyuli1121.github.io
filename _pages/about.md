@@ -38,3 +38,5 @@ blogs:
 I'm an incoming CS PhD student at CUHK, advised by [Prof. Shengchao Liu](https://chao1224.github.io/).
 
 I study multi-scale generative modeling, aiming to build models that discover, represent, and generate structure across hierarchical scales. My interests span efficient inference, multimodal representation learning, controllable generation, and physical-world modeling and understanding.
+
+I received my B.S. in Mathematics from the University of Illinois Urbana-Champaign (UIUC) in 2026. During my undergraduate studies, I was fortunate to work with [Prof. Huimin Zhao](https://chbe.illinois.edu/people/profile/zhao5) and [Prof. Chi Zhang](https://icoz69.github.io/).

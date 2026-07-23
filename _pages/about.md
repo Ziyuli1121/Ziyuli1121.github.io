@@ -35,8 +35,8 @@ blogs:
       url: https://rain-farm-1ce.notion.site/Who-am-I-when-I-talk-about-myself-2f71a04dab4c80a18622dbd3836e492f?source=copy_link
 ---
 
-I'm an incoming CS PhD student at CUHK, advised by [Prof. Shengchao Liu](https://chao1224.github.io/).
+Hello! I'm Ziyu Li. I'm doing my PhD at CUHK, advised by [Prof. Shengchao Liu](https://chao1224.github.io/).
 
-I study multi-scale generative modeling across hierarchical scales, with interests in efficient inference, multimodal representation learning, controllable generation, and physical-world modeling.
+I am interested in multi-scale generative modeling. I view both the world and the ways we perceive, understand, and interact with it as organized across multiple scales. My work explores how this perspective can serve as a useful prior for generative AI, with applications in efficient inference, multimodal representation learning, controllable generation, and physical-world modeling.
 
 I received my B.S. in Mathematics from the University of Illinois Urbana-Champaign (UIUC) in 2026. During my undergraduate studies, I was fortunate to work with [Prof. Huimin Zhao](https://chbe.illinois.edu/people/profile/zhao5) and [Prof. Chi Zhang](https://icoz69.github.io/).

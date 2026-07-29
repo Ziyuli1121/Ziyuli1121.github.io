@@ -39,6 +39,13 @@ ninja.data = [{
           title: '🎉 Our paper EPD-Solver via RDPO has been accepted to IEEE TPAMI.',
           description: "",
           section: "News",},{
+        id: 'social-cv_pdf',
+        title: 'Cv_pdf',
+        section: 'Socials',
+        handler: () => {
+          window.open("", "_blank");
+        },
+      },{
         id: 'social-github',
         title: 'GitHub',
         section: 'Socials',

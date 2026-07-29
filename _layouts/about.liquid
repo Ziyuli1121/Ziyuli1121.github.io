@@ -14,6 +14,12 @@ layout: default
     {% if page.subtitle %}
       <p class="desc">{{ page.subtitle }}</p>
     {% endif %}
+    {% if site.data.socials.cv_pdf %}
+      <a class="about-cv-link" href="{{ site.data.socials.cv_pdf | relative_url }}" title="Curriculum Vitae">
+        <i class="fa-solid fa-file-pdf" aria-hidden="true"></i>
+        <span>Curriculum Vitae</span>
+      </a>
+    {% endif %}
   </header>
 
   <article>

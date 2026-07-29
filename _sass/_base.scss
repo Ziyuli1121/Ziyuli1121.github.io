@@ -253,6 +253,28 @@ ul.task-list input[type="checkbox"] {
     margin-bottom: 0;
   }
 
+  .about-cv-link {
+    align-items: center;
+    color: var(--global-theme-color);
+    display: inline-flex;
+    gap: 0.4rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.65;
+    margin-top: 0.75rem;
+    text-decoration: none;
+    transition: color 0.2s ease-in-out;
+
+    i {
+      font-size: 1rem;
+    }
+
+    &:hover {
+      color: var(--global-hover-color);
+      text-decoration: none;
+    }
+  }
+
   .about-hero {
     align-items: start;
     border-bottom: 1px solid var(--global-divider-color);
@@ -688,6 +710,7 @@ ul.task-list input[type="checkbox"] {
         i::before {
           color: var(--global-theme-color);
         }
+
       }
     }
   }

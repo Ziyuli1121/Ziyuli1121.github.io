@@ -24,6 +24,9 @@ blogs:
   enabled: false # hides the homepage Writing / Notes section
   title: Writing / Notes # section title
   items:
+    - date: 2026-08-21
+      description: "Research Hacking"
+      url: https://rain-farm-1ce.notion.site/Research-Hacking-3c31a04dab4c80afad36da34ac487687?source=copy_link
     - date: 2026-04-23
       description: "《路边野餐》中的诗"
       url: /blogs/kaili-blues-poetry/

@@ -47,6 +47,12 @@ nav_order: 3
     <div class="table-responsive">
       <table class="table table-sm table-borderless">
         <tr>
+          <th scope="row" style="width: 20%">Aug 21, 2026</th>
+          <td>
+            <a class="blog-title" href="https://rain-farm-1ce.notion.site/Research-Hacking-3c31a04dab4c80afad36da34ac487687?source=copy_link">Research Hacking</a>
+          </td>
+        </tr>
+        <tr>
           <th scope="row" style="width: 20%">Jun 24, 2026</th>
           <td>
             <a class="blog-title" href="{{ '/assets/slides/world-models-2026-06-24.pdf' | relative_url }}">World Models</a>

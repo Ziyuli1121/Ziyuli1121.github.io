@@ -7,6 +7,7 @@ on:
       - main
     paths:
       - "assets/**"
+      - "bin/**"
       - "_sass/**"
       - "**.bib"
       - "**.html"
@@ -35,6 +36,7 @@ on:
       - main
     paths:
       - "assets/**"
+      - "bin/**"
       - "_sass/**"
       - "**.bib"
       - "**.html"
@@ -62,6 +64,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: deploy-site-${{ github.event_name == 'pull_request' && github.ref || 'production' }}
+  cancel-in-progress: true
+
 jobs:
   deploy:
     # available images: https://github.com/actions/runner-images#available-images
@@ -69,6 +75,8 @@ jobs:
     steps:
       - name: Checkout 🛎️
         uses: actions/checkout@v4
+      - name: Verify CV provenance
+        run: python3 bin/verify_cv.py
       - name: Setup Ruby 💎
         uses: ruby/setup-ruby@v1
         with:
